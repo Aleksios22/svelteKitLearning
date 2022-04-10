@@ -1,55 +1,51 @@
 <script>
-    let title = 'About us'
-  
-    const updateTitle = () => {
-      title = 'something completely different'
-    }
-  </script>
+  import Nav from '$lib/nav.svelte'
+</script>
 
 <main class="index text-center" >
 
-    <nav>
-      <div class="navbar bg-base-100">
-        <div class="navbar-start">
-          <div class="dropdown">
-            <label tabindex="0" class="btn btn-ghost btn-circle">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
-            </label>
-            <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-              <li><a href="/">Homepage</a></li>
-              <li><a href="/about">about</a></li>
-              <li><a href="/guides">Guides</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="navbar-center">
-          <a class="btn btn-ghost normal-case text-xl">{title}</a>
-        </div>
-        <div class="navbar-end">
-          <button class="btn btn-ghost btn-circle">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
-          </button>
-          <button class="btn btn-ghost btn-circle">
-            <div class="indicator">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" /></svg>
-              <span class="badge badge-xs badge-primary indicator-item"></span>
-            </div>
-          </button>
-        </div>
-      </div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Rerum assumenda quibusdam mollitia doloribus. Ad! Lorem ipsum
-        dolor sit amet consectetur adipisicing elit. Quia facere in
-         minima voluptatibus itaque voluptatem, at unde ut quis quod
-          iste suscipit! Ex, repudiandae enim. Deserunt?
-      </p>
+  <Nav title="About" />
     
-    </nav>
-    
-    <section>
-    
+    <section class="px-20 py-2">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique magnam ullam corporis aperiam 
+        debitis ipsum sequi accusamus aliquam amet officia id architecto quidem veritatis repudiandae dolores
+         voluptates, nisi recusandae sit, nihil numquam? Laborum porro aut fuga nesciunt nostrum laudantium 
+         rem velit dolor, sit magnam suscipit eligendi. Ut iusto, ratione similique vel possimus repudiandae
+          blanditiis aperiam distinctio commodi nam aut quos. Recusandae impedit odit molestiae harum 
+          dignissimos. Blanditiis officia numquam qui earum corporis beatae, eum doloremque. Sit aliquid
+           aspernatur corrupti. Laborum, ad cumque sed incidunt ipsam obcaecati quidem ipsa quae velit 
+           molestias amet a vel corporis sequi eveniet placeat ea iste maxime facilis odio. Tempora corrupti
+            deleniti laborum tenetur error ab facere assumenda minus nulla consectetur, pariatur autem maiores
+             impedit necessitatibus praesentium fugiat provident deserunt. Vero maiores incidunt laudantium 
+             eius, excepturi nesciunt cum expedita porro, ducimus neque iste consequatur ut maxime! Dicta, 
+             distinctio atque qui sed quaerat ipsum repellat aliquam debitis, molestias, delectus ad? Aliquid 
+             quia hic, quis pariatur minus numquam nobis debitis adipisci quidem harum aut itaque autem
+              exercitationem eos eveniet necessitatibus quod perferendis laborum animi odio ad architecto
+               nesciunt? Earum ipsam, doloribus dolorem voluptate, ipsa architecto iure, ipsum placeat eaque
+                sunt corrupti blanditiis perferendis sed deleniti mollitia fuga ut saepe nemo veritatis quis.
+                 Suscipit illum vitae, delectus autem consequuntur, iure totam ratione perferendis ipsum 
+                 consectetur facere recusandae atque repellendus. Unde quibusdam sint ratione et facilis 
+                 eligendi delectus sequi cum debitis vitae ipsum aut expedita nobis, ipsam libero maxime 
+                 magnam dolorum at, non nesciunt? Vel dolorum non harum, ipsum vero eaque ut deleniti, quia
+                  tenetur cum aliquid odit? Earum laudantium porro eius in optio, pariatur ut eaque nihil illum
+                   tempora, consequuntur repellendus id. Corrupti architecto incidunt ipsum, totam iure 
+                   praesentium, minus, aperiam magni ratione adipisci eius. Non laudantium vero quidem n
+                   ihil, maxime, distinctio incidunt suscipit quibusdam tempore libero minus illo volupta
+                   tem itaque ipsam porro corporis quas reiciendis natus atque sint! Voluptates nobis pos
+                   simus iusto ipsa, magnam sequi non voluptatibus doloribus corrupti harum, quas autem b
+                   landitiis veniam in molestias officiis quia corporis praesentium architecto deleniti tem
+                   pore iste inventore! Ab maiores voluptas sit. Saepe, quo nulla odit eligendi doloremque 
+                   quae deleniti fugit quia ut nemo, neque illo quaerat voluptates ullam? Placeat at aspern
+                   atur adipisci quasi distinctio? Eos odio exercitationem ipsa tempore. Repellat sed ducim
+                   us deleniti rerum, similique officiis non doloremque. Ab illum enim eligendi nihil nesci
+                   unt repellat ducimus impedit. Aspernatur dolorem doloremque nobis, ducimus, mollitia a h
+                   ic ea eum dolore soluta, necessitatibus obcaecati animi dolorum. Iste assumenda facilis 
+                   sit inventore optio quasi dolore obcaecati magni quidem, fugiat aliquid dignissimos cons
+                   equatur placeat reiciendis beatae fugit? Cum quam, asperiores libero neque autem laborio
+
+            </p>
     </section>  
+
   
   </main>
   

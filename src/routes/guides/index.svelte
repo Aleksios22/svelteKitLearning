@@ -1,3 +1,8 @@
+<script>
+    import Nav from '$lib/nav.svelte'
+  </script>
+
+<Nav title="Guides" />
 <div class="guides">
     <ul class="">
          <li><a class="inline-block my-5" href="/guides/hello">Hello</a></li>
